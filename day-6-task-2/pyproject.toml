@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "day-6-task-2"
+version = "0.1.0"
+description = "day-6-task-2"
+authors = ["Matt Ripia <matt.ripia@mattr.global>"]
+readme = "README.md"
+packages = [{include = "day-6-task-2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
